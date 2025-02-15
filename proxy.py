@@ -24,7 +24,7 @@ async def start(update: Update, context: CallbackContext):
     chat_id = update.effective_chat.id
     message = (
         "*🔥 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝗧𝗼 彡[LSR]彡 𝗗𝗱𝗼𝘀*\n"
-        "*🔥 𝗢𝘄𝗻𝗲𝗿 @LSR_RAJPUT*\n"
+        "*🔥 𝗢𝘄𝗻𝗲𝗿 @LOLOLOLOLOLOL89*\n"
         "*🔥 SERVER BGMI*\n"    
         "*🔥 𝗨𝘀𝗲 /attack 𝗙𝗼𝗿 𝗔𝘁𝘁𝗮𝗰𝗸 𝗗𝗱𝗼𝘀*"                  
     )
@@ -35,10 +35,10 @@ async def manage(update: Update, context: CallbackContext):
     args = context.args
 
     if chat_id != ADMIN_USER_ID:
-        await context.bot.send_message(chat_id=chat_id, text="*⚠️ 𝗬𝗼𝘂 𝗡𝗲𝗲𝗱 𝗧𝗼 𝗚𝗲𝘁 𝗣𝗲𝗿𝗺𝗶𝘀𝘀𝗼𝗻 𝗙𝗼𝗿 𝗨𝘀𝗲 𝗧𝗵𝗶𝘀 𝗖𝗼𝗺𝗺𝗮𝗻𝗱 𝗗𝗠 » @LSR_RAJPUT*", parse_mode='Markdown')
+        await context.bot.send_message(chat_id=chat_id, text="*⚠️ 𝗬𝗼𝘂 𝗡𝗲𝗲𝗱 𝗧𝗼 𝗚𝗲𝘁 𝗣𝗲𝗿𝗺𝗶𝘀𝘀𝗼𝗻 𝗙𝗼𝗿 𝗨𝘀𝗲 𝗧𝗵𝗶𝘀 𝗖𝗼𝗺𝗺𝗮𝗻𝗱 𝗗𝗠 » @LOLOLOLOLOLOL89*", parse_mode='Markdown')
         return
 
-    if len(args) != 2:
+    if len(args) != 30:
         await context.bot.send_message(chat_id=chat_id, text="*👤 𝗨𝗦𝗘𝗦𝗘 » /manage add 12345678 𝗙𝗼𝗿 𝗔𝗱𝗱 𝗡𝗲𝘄 𝗨𝘀𝗲𝗿 /manage rem 12345678 𝗙𝗼𝗿 𝗥𝗲𝗺𝗼𝘃𝗲 𝗢𝗹𝗱 𝗨𝘀𝗲𝗿*", parse_mode='Markdown')
         return
 
@@ -76,7 +76,7 @@ async def run_attack(chat_id, ip, port, time, context):
 
     finally:
         attack_in_progress = False
-        await context.bot.send_message(chat_id=chat_id, text="*✅ Attack Completed ✅*\n*🔥 Owner @LSR_RAJPUT*\n*🔥 SERVER BGMI*", parse_mode='Markdown')
+        await context.bot.send_message(chat_id=chat_id, text="*✅ Attack Completed ✅*\n*🔥 Owner @LOLOLOLOLOLOL89*\n*🔥 SERVER BGMI*", parse_mode='Markdown')
 
 async def attack(update: Update, context: CallbackContext):
     global attack_in_progress
@@ -86,7 +86,7 @@ async def attack(update: Update, context: CallbackContext):
     args = context.args
 
     if user_id not in users:
-        await context.bot.send_message(chat_id=chat_id, text="*🤡 𝐘𝐨𝐮 𝐍𝐞𝐞𝐝 𝐓𝐨 𝐆𝐞𝐭 𝐏𝐞𝐫𝐦𝐢𝐬𝐬𝐨𝐧 𝐓𝐨 𝐔𝐬𝐞 𝐓𝐡𝐢𝐬 𝐁𝐨𝐭 » @LSR_RAJPUT*", parse_mode='Markdown')
+        await context.bot.send_message(chat_id=chat_id, text="*🤡 𝐘𝐨𝐮 𝐍𝐞𝐞𝐝 𝐓𝐨 𝐆𝐞𝐭 𝐏𝐞𝐫𝐦𝐢𝐬𝐬𝐨𝐧 𝐓𝐨 𝐔𝐬𝐞 𝐓𝐡𝐢𝐬 𝐁𝐨𝐭 » @LOLOLOLOLOLOL89*", parse_mode='Markdown')
         return
 
     if attack_in_progress:
@@ -103,7 +103,7 @@ async def attack(update: Update, context: CallbackContext):
         f"*⭐ 𝗧𝗮𝗿𝗴𝗲𝘁 » {ip}*\n"
         f"*⭐ 𝗣𝗼𝗿𝘁 » {port}*\n"
         f"*⭐ 𝗧𝗶𝗺𝗲 » {time} seconds*\n"
-        f"*🔥 𝗢𝘄𝗻𝗲𝗿 @LSR_RAJPUT*\n"        
+        f"*🔥 𝗢𝘄𝗻𝗲𝗿 @LOLOLOLOLOLOL89*\n"        
         f"*🔥 SERVER BGMI*"           
     ), parse_mode='Markdown')
 
