@@ -48,7 +48,7 @@ allowed_user_ids = read_users()
 
 # Function to log command to the file
 def log_command(user_id, target, port, time):
-    admin_id = ["7471974865"]
+    admin_id = ["7584228621"]
     user_info = bot.get_chat(user_id)
     if user_info.username:
         username = "@" + user_info.username
@@ -189,7 +189,7 @@ def remove_user(message):
             response = '''Please Specify A User ID to Remove. 
 ✅ Usage: /remove <userid>😘'''
     else:
-        response = "ʙᴜʏ ᴋʀᴏ :- @GOLEM_OWNER ❄"
+        response = "ʙᴜʏ ᴋʀᴏ :- @LOLOLOLOLOLOL89 ❄"
 
     bot.reply_to(message, response)
 
@@ -208,7 +208,7 @@ def clear_logs_command(message):
         except FileNotFoundError:
             response = "Logs are already cleared ❌."
     else:
-        response = "ʙᴜʏ ᴋʀᴏ :- @GOLEM_OWNER ❄"
+        response = "ʙᴜʏ ᴋʀᴏ :- @LOLOLOLOLOLOL89 ❄"
     bot.reply_to(message, response)
 
 
@@ -227,7 +227,7 @@ def clear_users_command(message):
         except FileNotFoundError:
             response = "users are already cleared ❌."
     else:
-        response = "ʙᴜʏ ᴋʀᴏ :- @GOLEM_OWNER ❄"
+        response = "ʙᴜʏ ᴋʀᴏ :- @LOLOLOLOLOLOL89 ❄"
     bot.reply_to(message, response)
  
 
@@ -252,7 +252,7 @@ def show_all_users(message):
         except FileNotFoundError:
             response = "No data found ❌"
     else:
-        response = "ʙᴜʏ ᴋʀᴏ :- @GOLEM_OWNER ❄"
+        response = "ʙᴜʏ ᴋʀᴏ :- @LOLOLOLOLOLOL89 ❄"
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['logs'])
@@ -270,7 +270,7 @@ def show_recent_logs(message):
             response = "No data found ❌"
             bot.reply_to(message, response)
     else:
-        response = "ʙᴜʏ ᴋʀᴏ :- @GOLEM_OWNER ❄"
+        response = "ʙᴜʏ ᴋʀᴏ :- @LOLOLOLOLOLOL89 ❄"
         bot.reply_to(message, response)
 
 
@@ -320,7 +320,7 @@ def handle_bgmi(message):
         else:
             response = "✅ Usage :- /bgmi <target> <port> <time>"  # Updated command syntax
     else:
-        response = ("🚫 Unauthorized Access! 🚫\n\nJOIN BOTH CHANNELS TO GET FREE OR PAID ACCES \n\n @golemhacks AND @golemfeedbacks \n\n NOW SEND YOUR USER ID TO @GOLEM_OWNER FOR APPROVAL ")
+        response = ("🚫 Unauthorized Access! 🚫\n\nJOIN BOTH CHANNELS TO GET FREE OR PAID ACCES \n\n @golemhacks AND @golemfeedbacks \n\n NOW SEND YOUR USER ID TO @LOLOLOLOLOLOL89 FOR APPROVAL ")
 
     bot.reply_to(message, response)
 
@@ -357,7 +357,7 @@ def show_help(message):
 🤖 To See Admin Commands:
  /admincmd : Shows All Admin Commands.
 
-Buy From :- @GOLEM_OWNER
+Buy From :- @LOLOLOLOLOLOL89
 '''
     for handler in bot.message_handlers:
         if hasattr(handler, 'commands'):
@@ -374,7 +374,7 @@ def welcome_start(message):
     user_name = message.from_user.first_name
     response = f'''❄️ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴘʀᴇᴍɪᴜᴍ ᴅᴅᴏs ʙᴏᴛ, {user_name}! ᴛʜɪs ɪs ʜɪɢʜ ǫᴜᴀʟɪᴛʏ sᴇʀᴠᴇʀ ʙᴀsᴇᴅ ᴅᴅᴏs. ᴛᴏ ɢᴇᴛ ᴀᴄᴄᴇss.
 🤖Try To Run This Command : /help 
-✅BUY :- @GOLEM_OWNER'''
+✅BUY :- @LOLOLOLOLOLOL89'''
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['rules'])
@@ -391,7 +391,7 @@ def welcome_rules(message):
 @bot.message_handler(commands=['plan'])
 def welcome_plan(message):
     user_name = message.from_user.first_name
-    response = f'''{user_name}, ʙᴜʏ ᴋʀᴏ :- @GOLEM_OWNER ❄
+    response = f'''{user_name}, ʙᴜʏ ᴋʀᴏ :- @LOLOLOLOLOLOL89 ❄
 '''
     bot.reply_to(message, response)
 
